@@ -10,7 +10,6 @@ class Usuarios extends CI_Controller
 
 	public function index()
 	{
-		// get all users
 		$data = array(
 			'usuarios' => $this->ion_auth->users()->result(),
 
