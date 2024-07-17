@@ -55,12 +55,14 @@
 										<td>
 											<?php echo $user->active ?>
 										</td>
-									</tr>
 
-									<td>
-										<a href="" title="Editar" class="btn btn-primary btn-sm">Editar</a>
-										<a href="" title="Excluir" class="btn btn-sm btn-danger">Excluir</a>
-									</td>
+										<td>
+											<a href="" title="Editar" class="btn btn-primary btn-sm">
+												<i class="bi bi-pencil-square"></i> Editar </a>
+											<a href="" title="Excluir" class="btn btn-sm btn-danger">
+												<i class="bi bi-x-circle-fill"></i> Excluir</a>
+										</td>
+									</tr>
 
 								<?php endforeach; ?>
 							</tbody>
